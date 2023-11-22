@@ -15,3 +15,20 @@ C:\Users\gabri\OneDrive\Área de Trabalho\academis\bll\obj\Debug\net6.0\bll.dll
 C:\Users\gabri\OneDrive\Área de Trabalho\academis\bll\obj\Debug\net6.0\refint\bll.dll
 C:\Users\gabri\OneDrive\Área de Trabalho\academis\bll\obj\Debug\net6.0\bll.pdb
 C:\Users\gabri\OneDrive\Área de Trabalho\academis\bll\obj\Debug\net6.0\ref\bll.dll
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\bin\Debug\net6.0\bll.deps.json
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\bin\Debug\net6.0\bll.dll
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\bin\Debug\net6.0\bll.pdb
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\bin\Debug\net6.0\dal.dll
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\bin\Debug\net6.0\model.dll
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\bin\Debug\net6.0\dal.pdb
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\bin\Debug\net6.0\model.pdb
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\obj\Debug\net6.0\bll.csproj.AssemblyReference.cache
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\obj\Debug\net6.0\bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\obj\Debug\net6.0\bll.AssemblyInfoInputs.cache
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\obj\Debug\net6.0\bll.AssemblyInfo.cs
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\obj\Debug\net6.0\bll.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\obj\Debug\net6.0\bll.csproj.CopyComplete
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\obj\Debug\net6.0\bll.dll
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\obj\Debug\net6.0\refint\bll.dll
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\obj\Debug\net6.0\bll.pdb
+C:\Users\gabri\Source\Repos\gabm36\academis\bll\obj\Debug\net6.0\ref\bll.dll
