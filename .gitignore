@@ -9,3 +9,7 @@
 # Arquivos e Pastas do Sistema Operacional
 .DS_Store    # Arquivos do macOS
 Thumbs.db    # Arquivos do Windows
+
+# Pastas de build
+*/bin/
+*/obj/
