@@ -492,11 +492,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\academis\\dal\\dal.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\Source\\Repos\\gabm36\\academis\\dal\\dal.csproj",
       "projectName": "dal",
-      "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\academis\\dal\\dal.csproj",
+      "projectPath": "C:\\Users\\gabri\\Source\\Repos\\gabm36\\academis\\dal\\dal.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\academis\\dal\\obj\\",
+      "outputPath": "C:\\Users\\gabri\\Source\\Repos\\gabm36\\academis\\dal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -517,8 +517,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\academis\\model\\model.csproj": {
-              "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\academis\\model\\model.csproj"
+            "C:\\Users\\gabri\\Source\\Repos\\gabm36\\academis\\model\\model.csproj": {
+              "projectPath": "C:\\Users\\gabri\\Source\\Repos\\gabm36\\academis\\model\\model.csproj"
             }
           }
         }

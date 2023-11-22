@@ -12,7 +12,7 @@ namespace dal
         {
             conexao = new SqlConnection(
                 "Data Source=G15W; " +
-                "Initial Catalog=ACADEMIS; " +
+                "Initial Catalog=academis; " +
                 "Integrated Security=true;");
             sql = new SqlCommand();
             sql.Connection = conexao; // Associa a conexão ao comando

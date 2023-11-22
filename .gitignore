@@ -1,0 +1,11 @@
+# Arquivos de Log
+*.log
+*.csv
+
+# Arquivos de IDE/Editor
+.vscode/
+.vs/
+
+# Arquivos e Pastas do Sistema Operacional
+.DS_Store    # Arquivos do macOS
+Thumbs.db    # Arquivos do Windows
