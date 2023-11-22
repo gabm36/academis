@@ -13,3 +13,4 @@ Thumbs.db    # Arquivos do Windows
 # Pastas de build
 */bin/
 */obj/
+*/Debug/
