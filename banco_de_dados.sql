@@ -49,8 +49,8 @@ CREATE TABLE tblCategorias (
 CREATE TABLE tblProdutos (
 	prdId INT NOT NULL PRIMARY KEY IDENTITY,
 	prdDescricao VARCHAR(50) NOT NULL,
-	prdPrcCusto DECIMAL(9, 2) NOT NULL,
-	prdPrcVenda DECIMAL(9, 2) NOT NULL,
+	prdPrcCusto DECIMAL(10, 2) NOT NULL,
+	prdPrcVenda DECIMAL(10, 2) NOT NULL,
 	prdQuantidade INT NOT NULL,
 	catId INT NOT NULL,
 	FOREIGN KEY (catId) REFERENCES tblCategorias(catId)

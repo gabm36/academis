@@ -8,7 +8,7 @@ namespace dal
 {
     public class DalProduto
     {
-        private static String tbl = "tblProduto";
+        private static String tbl = "tblProdutos";
 
         public static Produto Selecionar(int id)
         {
@@ -23,8 +23,8 @@ namespace dal
             {
                 id = (int)reader["prdId"];
                 string descricao = (string)reader["prdDescricao"];
-                double prcCusto = (double)reader["prdPrcCusto"];
-                double prcVenda = (double)reader["prdPrcVenda"];
+                decimal prcCusto = (decimal)reader["prdPrcCusto"];
+                decimal prcVenda = (decimal)reader["prdPrcVenda"];
                 int quantidade = (int)reader["prdQuantidade"];
                 int categoria = (int)reader["catId"];
 
