@@ -6,7 +6,7 @@ namespace dal
 {
     public class DalCategoria
     {
-        private static String tbl = "tblCategoria";
+        private static String tbl = "tblCategorias";
 
         public static Categoria Selecionar(int id)
         {
