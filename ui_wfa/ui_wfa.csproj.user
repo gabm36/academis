@@ -10,6 +10,12 @@
     <Compile Update="UiPeriodoLT.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UiProdutoNE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UiProdutoLT.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UiSobre.cs">
       <SubType>Form</SubType>
     </Compile>
