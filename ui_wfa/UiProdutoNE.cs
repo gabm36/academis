@@ -46,9 +46,9 @@ namespace ui_wfa
             try
             {
                 string descricao = txtDescricao.Text;
-                decimal prcCusto = (txtPrcCusto.Text.Length != 0) ? decimal.Parse(txtPrcCusto.Text) : throw new InvalidDataException("O preço de custo não pode ser vazio.");
-                decimal prcVenda = (txtPrcVenda.Text.Length != 0) ? decimal.Parse(txtPrcVenda.Text) : throw new InvalidDataException("O preço de venda não pode ser vazio.");
-                int quantidade = (txtQuantidade.Text.Length != 0) ? Int32.Parse(txtQuantidade.Text) : throw new InvalidDataException("A quantidade não pode estar vazia.");
+                decimal prcCusto = (txtPrcCusto.Text.Length != 0) ? decimal.Parse(txtPrcCusto.Text) : throw new ArgumentException("O preço de custo não pode ser vazio.");
+                decimal prcVenda = (txtPrcVenda.Text.Length != 0) ? decimal.Parse(txtPrcVenda.Text) : throw new ArgumentException("O preço de venda não pode ser vazio.");
+                int quantidade = (txtQuantidade.Text.Length != 0) ? Int32.Parse(txtQuantidade.Text) : throw new ArgumentException("A quantidade não pode estar vazia.");
                 int categoria = Convert.ToInt32(selCategoria.SelectedValue);
 
                 produto = new(idSelecionado, descricao, prcCusto, prcVenda, quantidade, categoria);
@@ -60,7 +60,7 @@ namespace ui_wfa
 
                 this.Close();
             }
-            catch (InvalidDataException ex)
+            catch (ArgumentException ex)
             {
                 MessageBox.Show(ex.Message, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }

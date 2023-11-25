@@ -67,8 +67,8 @@ namespace ui_wfa
                 {
                     DataTable tabela = (DataTable)Tabela.DataSource;
                     string filterExpression = "prdDescricao LIKE '%" + valorPesquisa + "%' OR " +
-                                          "Convert(prdId, 'System.String') LIKE '%" + valorPesquisa + "%'" +
-                                          "catNome LIKE '%" + valorPesquisa + "%'";
+                        "catDescricao LIKE '%" + valorPesquisa + "%' OR " +
+                        "Convert(prdId, 'System.String') LIKE '%" + valorPesquisa + "%'";
 
                     tabela.DefaultView.RowFilter = filterExpression;
                 }
