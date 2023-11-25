@@ -27,7 +27,7 @@
             set
             {
                 if (value < 0)
-                    throw new InvalidDataException("O id não pode ser menor do que 0.");
+                    throw new ArgumentException("O id não pode ser menor do que 0.");
                 else
                     id = value;
             }
@@ -39,9 +39,9 @@
             set
             {
                 if (value.Length == 0)
-                    throw new InvalidDataException("A descrição não pode ter um valor vazio.");
+                    throw new ArgumentException("A descrição não pode ter um valor vazio.");
                 else if (value.Length > 50)
-                    throw new InvalidDataException("A descrição não pode ter mais de 50 caracteres.");
+                    throw new ArgumentException("A descrição não pode ter mais de 50 caracteres.");
                 else
                     descricao = value;
             }
@@ -53,7 +53,7 @@
             set
             {
                 if (value < 0)
-                    throw new InvalidDataException("O preço de custo não pode ser menor do que zero.");
+                    throw new ArgumentException("O preço de custo não pode ser menor do que zero.");
                 else
                     prcCusto = value;
             }
@@ -65,7 +65,7 @@
             set
             {
                 if (value < 0)
-                    throw new InvalidDataException("O preço de venda não pode ser menor do que zero.");
+                    throw new ArgumentException("O preço de venda não pode ser menor do que zero.");
                 else
                     prcVenda = value;
             }
@@ -77,7 +77,7 @@
             set
             {
                 if (value < 0)
-                    throw new InvalidDataException("A quantidade não pode ser negativa.");
+                    throw new ArgumentException("A quantidade não pode ser negativa.");
                 else
                     quantidade = value;
             }
