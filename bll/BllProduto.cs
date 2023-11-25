@@ -26,6 +26,11 @@ namespace bll
             DalProduto.Deletar(id);
         }
 
+        public static void DeletarPorCategoria(int id)
+        {
+            DalProduto.DeletarPorCategoria(id);
+        }
+
         public static DataTable Listar()
         {
             return DalProduto.Listar();

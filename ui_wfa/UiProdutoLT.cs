@@ -129,17 +129,6 @@ namespace ui_wfa
                     AtualizarTabela();
                 }
             }
-            catch (SqlException)
-            {
-                // ajeitar essa parte depois
-                DialogResult d = MessageBox.Show("A disciplina que você está tentando excluir têm vínculos com uma ou mais cursos. Deseja excluir TODOS esses vínculos também?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                if (d == DialogResult.Yes)
-                {
-                    BllDisciplinaCurso.Deletar(idSelecionado, "disId");
-                    BllCurso.Deletar(idSelecionado);
-                    AtualizarTabela();
-                }
-            }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);

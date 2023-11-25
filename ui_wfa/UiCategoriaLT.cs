@@ -67,7 +67,7 @@ namespace ui_wfa
                 {
                     DataTable tabela = (DataTable)Tabela.DataSource;
                     string filterExpression = "catDescricao LIKE '%" + valorPesquisa + "%' OR " +
-                                          "Convert(catId, 'System.String') LIKE '%" + valorPesquisa + "%'";
+                        "Convert(catId, 'System.String') LIKE '%" + valorPesquisa + "%'";
 
                     tabela.DefaultView.RowFilter = filterExpression;
                 }
@@ -130,7 +130,15 @@ namespace ui_wfa
             }
             catch (SqlException)
             {
+                String pergunta = "Você precisa excluir todos os produtos vinculados a essa categoria antes de excluí-lás. Deseja excluir os produtos vinculados?";
+                DialogResult exclusaoTotal = MessageBox.Show(pergunta, "Confirmação de exclusão", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
+                if (exclusaoTotal == DialogResult.Yes)
+                {
+                    BllProduto.DeletarPorCategoria(idSelecionado);
+                    BllCategoria.Deletar(idSelecionado);
+                    AtualizarTabela();
+                }
             }
             catch (Exception ex)
             {

@@ -78,6 +78,17 @@ namespace dal
             sql.ExecuteNonQuery();
         }
 
+        public static void DeletarPorCategoria(int id)
+        {
+            using SqlCommand sql = new DalConexao().AbrirConexao();
+
+            sql.CommandText = "DELETE FROM " + tbl + " WHERE catId = @catId;";
+
+            sql.Parameters.Add("@catId", SqlDbType.Int).Value = id;
+
+            sql.ExecuteNonQuery();
+        }
+
         public static DataTable Listar()
         {
             using SqlCommand sql = new DalConexao().AbrirConexao();
