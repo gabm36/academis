@@ -61,5 +61,17 @@ namespace ui_wfa
             UiSobre frm = new();
             frm.ShowDialog();
         }
+
+        private void SMprodutos(object sender, EventArgs e)
+        {
+            UiProdutos frm = new();
+            frm.ShowDialog();
+        }
+
+        private void SMcategorias(object sender, EventArgs e)
+        {
+            UiCategoriaLT frm = new();
+            frm.ShowDialog();
+        }
     }
 }
