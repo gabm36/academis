@@ -104,10 +104,10 @@ namespace ui_wfa
                     else
                     {
                         e.Cancel = true;
-                        throw new InvalidDataException("\"" + textBox.Text + "\" é um valor inválido. Use números inteiros ou decimais, separados por vírgula.");
+                        throw new ArgumentException("\"" + textBox.Text + "\" é um valor inválido. Use números inteiros ou decimais, separados por vírgula.");
                     }
             }
-            catch (InvalidDataException ex)
+            catch (ArgumentException ex)
             {
                 MessageBox.Show(ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
@@ -125,10 +125,10 @@ namespace ui_wfa
                     else
                     {
                         e.Cancel = true;
-                        throw new InvalidDataException("\"" + textBox.Text + "\" é um valor inválido. Use apenas números inteiros.");
+                        throw new ArgumentException("\"" + textBox.Text + "\" é um valor inválido. Use apenas números inteiros.");
                     }
             }
-            catch (InvalidDataException ex)
+            catch (ArgumentException ex)
             {
                 MessageBox.Show(ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
