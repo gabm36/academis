@@ -34,10 +34,9 @@ namespace dal
         {
             using SqlCommand sql = new DalConexao().AbrirConexao();
 
-            sql.CommandText = "INSERT INTO " + tbl + " (catId, catDescricao) VALUES (@catId, @catDescricao);";
+            sql.CommandText = "INSERT INTO " + tbl + " (catDescricao) VALUES (@catDescricao);";
 
-            sql.Parameters.Add("@catId", SqlDbType.VarChar).Value = c.Id;
-            sql.Parameters.Add("@catDescricao", SqlDbType.Decimal).Value = c.Descricao;
+            sql.Parameters.Add("@catDescricao", SqlDbType.VarChar).Value = c.Descricao;
 
             sql.ExecuteNonQuery();
         }

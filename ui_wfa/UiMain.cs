@@ -70,8 +70,8 @@ namespace ui_wfa
 
         private void SMcategorias(object sender, EventArgs e)
         {
-            // UiCategorias frm = new();
-            // frm.ShowDialog();
+            UiCategoriaLT frm = new();
+            frm.ShowDialog();
         }
     }
 }
