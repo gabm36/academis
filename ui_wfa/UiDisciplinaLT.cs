@@ -137,7 +137,7 @@ namespace ui_wfa
                 if (d == DialogResult.Yes)
                 {
                     BllDisciplinaCurso.Deletar(idSelecionado, "disId");
-                    BllCurso.Deletar(idSelecionado);
+                    BllDisciplina.Deletar(idSelecionado);
                     AtualizarTabela();
                 }
             }
